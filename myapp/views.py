@@ -118,7 +118,7 @@ def process_pdfs(pdf_folder, output_folder, save_folder, instructions, random_nu
 
 
 def openai_gpt4_vision_request(base64_image, vertices):
-    openai_api_key = "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"  # Replace with your OpenAI API key
+    openai_api_key = ""  # Replace with your OpenAI API key
     model_name = "gpt-4-vision-preview"
 
     headers = {
